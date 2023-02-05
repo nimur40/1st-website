@@ -1,36 +1,29 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 body{
-    background-image: url(background.jpg);
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-.menu-bar{
-    background: rgb(0, 100,0 blue);
-    text-align: center;
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
 }
-.menu-bar ul{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
+.name-highlight{
+    color: orange;
 }
-.menu-bar li{
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
-}
-.menu-bar li a{
-    text-decoration: none;
-    color: #fff;
-}
-.active, .menu-bar ul li:hover
-{
-    background: #2bab0d;
-    border-radius: 3px;
-}
+.div-half{
+    width: 40%;
+    float: left;
+    
+    margin-left: 2%;
+}  
+.div-half img{
+    width: 100%;
 
+}
+.top-banner{
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 200px;
+}
